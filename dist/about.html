@@ -1,0 +1,776 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/sf-pro-text-semibold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/montserrat-v31-latin-800.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/montserrat-v31-latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/manrope-v20-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/inter-v20-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/inter-v20-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/inter-v20-latin-500.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/ibm-plex-sans-v23-latin-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/ibm-plex-sans-v23-latin-700.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/GothamPro.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/GothamPro-Medium.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/GothamPro-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/GothamPro-Bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/GothamPro-Black.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>about</title>
+		<script type="module" crossorigin="" src="./js/common.min.js?v=1766921486612"></script>
+		<script type="module" crossorigin="" src="./js/popup.min.js?v=1766921486612"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/common.min.css?v=1766921486612">
+		<link rel="stylesheet" crossorigin="" href="./css/popup.min.css?v=1766921486612">
+		<link rel="stylesheet" crossorigin="" href="./css/about.min.css?v=1766921486612">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<div class="header__body">
+						<a href="index.html" class="header__logo header__link-logo">
+							<picture>
+								<img class="header__logo-image" alt="logo" src="./assets/img/logo.webp">
+							</picture>
+							<div class="header__logo-text">DiscountsOnServices</div>
+						</a>
+						<div class="header__menu menu">
+							<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+								<span></span>
+							</button>
+							<nav class="menu__body">
+								<div class="mobile-list__item mobile-list__account"></div>
+								<ul class="menu__list">
+									<li class="menu__item">
+										<div data-fls-spollers="" data-fls-spollers-speed="300" class="menu__spollers">
+											<details class="menu__spollers-item">
+												<summary class="menu__link menu__link--spollers" data-i18n="subscriptions">Subscriptions</summary>
+												<div class="menu__spollers-body">
+													<ul data-fls-dynamic=".mobile-list__dropdown, 767,98" class="menu__dropdown-list">
+														<li class="menu__dropdown-item">
+															<a href="netflix.html" class="menu__dropdown-link" data-i18n="netflix">Netflix</a>
+														</li>
+														<li class="menu__dropdown-item">
+															<a href="youtube.html" class="menu__dropdown-link" data-i18n="youTube_premium">YouTube Premium</a>
+														</li>
+														<li class="menu__dropdown-item">
+															<a href="spotify.html" class="menu__dropdown-link" data-i18n="spotify">Spotify</a>
+														</li>
+													</ul>
+												</div>
+											</details>
+										</div>
+									</li>
+									<li class="menu__item">
+										<a href="index.html" class="menu__link menu__link-home">
+											<img src="./assets/img/home.svg" alt="Home" class="menu__icon-svg">
+											Home
+										</a>
+									</li>
+									<li class="menu__item">
+										<a href="faq.html" class="menu__link menu__link--hover">
+											<img src="./assets/img/faq.svg" alt="FAQ" class="menu__icon-svg">
+											FAQ
+										</a>
+									</li>
+									<li class="menu__item">
+										<a href="support.html" class="menu__link menu__link--hover">
+											<img src="./assets/img/question-mark.svg" alt="Support" class="menu__icon-svg">
+											Support
+										</a>
+									</li>
+									<li class="menu__item">
+										<a href="about.html" class="menu__link menu__link--hover">
+											<img src="./assets/img/dashboard.svg" alt="About" class="menu__icon-svg">
+											About
+										</a>
+									</li>
+								</ul>
+								<ul class="menu-list__mobile mobile-list__items">
+									<li class="menu-profile" data-menu-profile="" hidden></li>
+									<li class="mobile-list__item mobile-list__dropdown"></li>
+									<li class="mobile-list__item mobile-list__button"></li>
+									<li data-profile-logout="" class="mobile-list__item mobile-list__logout"></li>
+									<li class="mobile-list__item mobile-list__actions"></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="header__actions">
+							<div data-fls-dynamic=".mobile-list__actions, 767,98" class="header__actions-left">
+								<ul class="header__contacts header-contacts">
+									<li class="header-contacts__item header-contacts__item--phone">
+										<a href="tel:+1234567890" class="header-contacts__link --icon-phone" aria-label="Call us">
+											<span class="visually-hidden">+1 (234) 567-890</span>
+										</a>
+									</li>
+									<li class="header-contacts__item header-contacts__item--telegram">
+										<a href="https://t.me/username" class="header-contacts__link --icon-telegram" target="_blank" rel="noopener" aria-label="Telegram">
+											<span class="visually-hidden">Telegram</span>
+										</a>
+									</li>
+								</ul>
+								<!-- <include src="@components/custom/language/language.html"></include> -->
+							</div>
+							<!-- LOG IN BUTTON -->
+							<div data-fls-dynamic=".mobile-list__button, 767,98" class="header__button">
+								<button aria-label="login" data-fls-login="" data-header-login="" data-fls-popup-link="login" data-fls-button="" class="button button--2 button-log header-login-btn">Log in</button>
+							</div>
+							<!-- PROFILE MENU -->
+							<div class="header-profile-wrapper" data-header-profile-wrapper="">
+								<div data-header-profile-btn="" class="menu__spollers">
+									<details class="menu__spollers-item">
+										<summary class="header-profile__btn menu__link--spollers --icon-user">Profile</summary>
+										<div class="menu__spollers-body body__spollers">
+											<ul class="menu__dropdown-list">
+												<li class="menu__dropdown-item is-logged-hidden" data-fls-dynamic=".mobile-list__account, 767,98">
+													<a href="account.html" class="menu__profile-link menu__profile-link--account --icon-user" data-profile-myprofile="">Account</a>
+												</li>
+												<li class="menu__dropdown-item is-logged-hidden" data-fls-dynamic=".mobile-list__logout, 767,98">
+													<button data-fls-popup-link="logout" class="menu__profile-link menu__profile-link--logout --icon-logout" data-profile-logout="">Logout</button>
+												</li>
+											</ul>
+										</div>
+									</details>
+								</div>
+							</div>
+							<div data-fls-dynamic=".mobile-list__button, 767,98" class="header__button signup-wrapper">
+								<button aria-label="signup" data-fls-login="" data-fls-popup-link="signup" data-fls-button="" data-header-signup="" class="button button-signup">Sign up</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="page page--about">
+				<section class="page__about about">
+					<h1 data-fls-title="" class="about__title">About us</h1>
+					<div class="about__container">
+						<div class="about__infoblock infoblock-about">
+							<picture>
+								<img class="infoblock-about__image" width="130" height="130" alt="logo" src="./assets/img/about/logo.webp">
+							</picture>
+							<div class="infoblock-about__text">
+								<p>
+									We offer you a subscription to various media services at the best
+            price.
+								</p>
+								<p>
+									We have partnered with several companies to help you find the best
+            prices for your media subscriptions and provide you with the best
+            prices for the Premium subscriptions you want.
+								</p>
+								<p>It's simple, fast and economical.</p>
+							</div>
+						</div>
+						<div class="about__picture picture-about">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/about/about-img-600.webp" type="image/webp">
+								<img class="picture-about__image" alt="Image" src="./assets/img/about/about-img.webp">
+							</picture>
+						</div>
+					</div>
+				</section>
+				<section data-aos="fade-up" data-fls-invite="" class="invite">
+					<div class="invite__container">
+						<div class="invite__body">
+							<div class="invite__left left-invite">
+								<h3 class="left-invite__title">Invite friends</h3>
+								<div class="left-invite__text">
+									<p>
+										Starting today up to 50% for
+										<a href="netflix.html">NETFLIX</a>
+										,
+										<a href="youtube.html">YOUTUBE</a>
+										,
+										<a href="spotify.html">SPOTIFY</a>
+										subscriptions with a secure
+            payment from PAYPAL
+									</p>
+								</div>
+							</div>
+							<div class="invite__right right-invite">
+								<h5 class="right-invite__title">Click on the link</h5>
+								<div class="right-invite__link --icon-discount">
+									<a target="_blank" href="https://t.me/DiscountsOnServices_bot?start=343964809">Discounts On Services</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__body body-footer">
+						<div class="body-footer__content content-footer">
+							<a href="#" class="content-footer__link-logo">
+								<picture>
+									<img class="content-footer__logo" width="60" height="61" alt="DiscountsOnServices logo" src="./assets/img/footer-logo.webp">
+								</picture>
+								<div class="footer__logo-text">DiscountsOnServices</div>
+							</a>
+							<div class="content-footer__text">
+								<p>It's simple, fast and economical</p>
+							</div>
+						</div>
+						<div class="footer__nav">
+							<div class="body-footer__menu">
+								<h5 class="body-footer__title">Subscriptions</h5>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a href="netflix.html" class="body-footer__link">Netflix</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="youtube.html" class="body-footer__link">YouTube Premium</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="spotify.html" class="body-footer__link">Spotify</a>
+									</li>
+								</ul>
+							</div>
+							<div class="body-footer__menu">
+								<h5 class="body-footer__title">Site navigation</h5>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a href="about.html" class="body-footer__link">About</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="faq.html" class="body-footer__link">FAQ</a>
+									</li>
+									<li class="body-footer__item">
+										<a href="support.html" class="body-footer__link">Support</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer__actions">
+							<ul class="footer__contacts footer-contacts">
+								<li class="footer-contacts__item footer-contacts__item--phone">
+									<a href="tel:+1234567890" class="footer-contacts__link --icon-phone" aria-label="Call us">
+										<span class="visually-hidden">+1 (234) 567-890</span>
+									</a>
+								</li>
+								<li class="footer-contacts__item footer-contacts__item--telegram">
+									<a href="https://t.me/username" class="footer-contacts__link --icon-telegram" target="_blank" rel="noopener" aria-label="Telegram">
+										<span class="visually-hidden">Telegram</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<a href="privacy.html" class="footer__bottom-link bottom-footer__copy">Privacy Policy</a>
+						<div class="bottom-footer__copy">Copyright 2021 © All Rights Reserved</div>
+						<div class="bottom-footer__copy">Developed by ....</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- Login -->
+		<div data-fls-login="" data-fls-popup="login" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text">
+						<h2 class="modal__title">Log in</h2>
+						<p class="modal__subtitle">
+							New user?
+							<span>
+								<a href="#" data-fls-popup-link="signup">Create an account</a>
+							</span>
+						</p>
+						<form data-fls-passwordeye="" data-login-form="" novalidate>
+							<label for="login-email" class="modal__label-email">Email Address</label>
+							<input id="login-email" type="email" placeholder="Enter your e-mail" class="input" required autocomplete="username">
+							<label for="login-password" class="modal__label-password">Password</label>
+							<div class="password-wrap">
+								<input autocomplete="current-password" id="login-password" type="password" placeholder="Enter password" class="input" required>
+								<button data-fls-passwordeye="" type="button" class="password-eye --icon-eye" aria-label="Показати пароль"></button>
+							</div>
+							<div class="forgot__block">
+								<a data-fls-popup-link="forget" href="#" class="forgot">Forgot password?</a>
+								<button data-fls-popup-link="successful-login" class="button btn-modal" data-login-submit="" disabled type="button">Log in</button>
+							</div>
+						</form>
+						<div class="divider">
+							<span>Or sign in with</span>
+						</div>
+						<div class="socials">
+							<button data-social="google" class="social-login-btn social-btn google">
+								<img class="social-btn__icon" src="./assets/img/icon-google.svg" alt="icon-google">
+							</button>
+							<button data-social="facebook" class="social-login-btn social-btn facebook">
+								<img class="social-btn__icon" src="./assets/img/icon-facebook.svg" alt="icon-facebook">
+							</button>
+							<button data-social="apple" class="social-login-btn social-btn apple">
+								<img class="social-btn__icon" src="./assets/img/icon-apple.svg" alt="icon-apple">
+							</button>
+						</div>
+						<p class="policy">
+							Protected by reCAPTCHA and subject to the Google
+							<a href="#" class="policy-link policy-link--blue">Privacy Policy</a>
+							and
+							<a href="#" class="policy-link policy-link--black">Terms of Service</a>
+							.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Signup -->
+		<div data-fls-signup="" data-fls-popup="signup" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text">
+						<h2 class="modal__title">Create an account</h2>
+						<p class="modal__subtitle">
+							Already have an account?
+							<span>
+								<a data-fls-popup-link="login" href="#">Sign In</a>
+							</span>
+						</p>
+						<form data-signup-form="" novalidate>
+							<label for="signup-username" class="modal__label-name">User name</label>
+							<input id="signup-username" name="username" type="text" autocomplete="username" placeholder="Enter your name" class="input" aria-required="true" aria-label="User name" required minlength="3" maxlength="20">
+							<label for="signup-email" class="modal__label-email">Email Address</label>
+							<input id="signup-email" name="email" type="email" placeholder="Enter your e-mail" class="input" required autocomplete="email" aria-required="true" aria-label="Email Address">
+							<label for="signup-password" class="modal__label-password">Password</label>
+							<div class="password-wrap">
+								<input id="signup-password" name="password" type="password" placeholder="Enter password" class="input" required minlength="8" autocomplete="new-password" aria-required="true" aria-label="Password">
+								<button data-fls-passwordeye="" type="button" class="password-eye --icon-eye" aria-label="Показати пароль"></button>
+							</div>
+							<div class="cntr">
+								<input type="checkbox" id="cbx" class="hidden-xs-up" required aria-required="true" aria-label="Accept Privacy Policy and Terms of Service">
+								<label for="cbx" class="cbx"></label>
+								<label for="cbx" class="check__text">
+									By creating an account you agree to our
+									<a href="#" class="check__text-link check-link--blue">Privacy Policy</a>
+									and
+									<a href="#" class="check__text-link check-link--black">Terms of Service.</a>
+								</label>
+							</div>
+							<button class="button btn-modal btn-signup__modal" data-signup-submit="" data-fls-popup-link="email-verification" type="button" disabled>Sign up</button>
+						</form>
+						<div class="divider">
+							<span>Or sign in with</span>
+						</div>
+						<div class="socials">
+							<button data-fls-popup-link="successful" class="social-btn google">
+								<img class="social-btn__icon" src="./assets/img/icon-google.svg" alt="icon-google">
+							</button>
+							<button data-fls-popup-link="successful" class="social-btn facebook">
+								<img class="social-btn__icon" src="./assets/img/icon-facebook.svg" alt="icon-facebook">
+							</button>
+							<button data-fls-popup-link="successful" class="social-btn apple">
+								<img class="social-btn__icon" src="./assets/img/icon-apple.svg" alt="icon-apple">
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Email-verification -->
+		<div data-fls-emailverification="" data-fls-popup="email-verification" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text">
+						<h2 class="modal__title modal__title-verification">Email verification</h2>
+						<p class="modal__subtitle">
+							Please enter the 6-digit verification code that was sent to
+          name@gmail.com. The code is valid for 30 minutes.
+						</p>
+						<label class="modal__label-name">Email verification code</label>
+						<div class="code-wrap">
+							<input id="verification-code" name="verification-code" type="tel" inputmode="numeric" pattern="[0-9]{6}" maxlength="6" placeholder="XXXXXX" class="input code-input" required autocomplete="one-time-code" aria-required="true" aria-label="6-digit verification code">
+							<button type="button" class="resend-btn">Resend code</button>
+						</div>
+						<button data-verification-submit="" data-fls-popup-link="successful" class="button btn-modal btn-signup__modal" type="button" disabled>Sign up</button>
+						<p class="resend">
+							<a href="#" class="resend-link">Didn't receive the code?</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- successful -->
+		<!-- <include src="@components/custom/successful/successful.html"></include> -->
+		<div data-fls-popup="successful" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text">
+						<h2 class="modal__title">Successful registration</h2>
+						<p class="modal__subtitle">
+							Thanks to our optimized work and internal tools, we can offer you
+          lower prices while maintaining the highest quality.
+						</p>
+						<button data-fls-successful="" data-fls-login="" class="button btn-modal btn-success-continue">Continue work</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
+============================================
+УСПІШНА РЕЄСТРАЦІЯ
+============================================
+-->
+		<div data-fls-popup="successful-signup" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text">
+						<h2 class="modal__title">Welcome!</h2>
+						<p class="modal__subtitle">
+							Your account has been successfully created. Thanks to our optimized
+          work and internal tools, we can offer you lower prices while
+          maintaining the highest quality.
+						</p>
+						<button class="button btn-modal btn-success-continue">Start exploring</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
+============================================
+УСПІШНА АВТОРИЗАЦІЯ (LOGIN)
+============================================
+-->
+		<div data-fls-successful="" data-fls-popup="successful-login" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text">
+						<h2 class="modal__title">Welcome back!</h2>
+						<p class="modal__subtitle">
+							You have successfully logged in to your account. Let's get back to
+          work!
+						</p>
+						<button class="button btn-modal btn-success-continue">Continue work</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--
+============================================
+УСПІШНА АВТОРИЗАЦІЯ ЧЕРЕЗ СОЦІАЛЬНІ МЕРЕЖИ
+============================================
+-->
+		<div data-fls-popup="successful-social" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text">
+						<h2 class="modal__title">Connected successfully!</h2>
+						<p class="modal__subtitle">
+							Your social account has been linked. You can now log in with a single
+          click.
+						</p>
+						<button class="button btn-modal btn-success-continue">Continue to dashboard</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Forget -->
+		<div data-fls-forget="" data-fls-popup="forget" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text">
+						<h2 class="modal__title modal__title-verification">Forgot Password</h2>
+						<p class="modal__subtitle">We will send a reset code to this email.</p>
+						<form data-forget-form="" novalidate>
+							<label for="forget-email" class="modal__label-email">Email Address</label>
+							<input id="forget-email" name="email" type="email" placeholder="name@gmail.com" class="input" required autocomplete="email" aria-required="true" aria-label="Email Address">
+							<button data-forget-submit="" data-fls-popup-link="forget-second" class="button btn-modal btn-signup__modal" type="button" disabled>Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Forget-second -->
+		<!--
+<include
+src="@components/custom/forgetsecondary/forgetsecondary.html"
+></include>
+-->
+		<div data-fls-forgetsecondary="" data-fls-popup="forget-second" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text">
+						<h2 class="modal__title modal__title-verification">Forgot Password</h2>
+						<p class="modal__subtitle">Please enter the 4-digit reset code sent to your email.</p>
+						<label class="modal__label-name">Email verification code</label>
+						<div class="code-wrap">
+							<input id="forget-code" name="reset-code" type="tel" inputmode="numeric" pattern="[0-9]{4}" maxlength="4" placeholder="XXXX" class="input code-input" required autocomplete="one-time-code" aria-required="true" aria-label="4-digit reset code">
+							<button type="button" class="resend-btn">Resend code</button>
+						</div>
+						<button data-forget-submit="" data-fls-popup-link="forget-final" class="button btn-modal btn-signup__modal" type="button" disabled>Restore Password</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Forget-final -->
+		<div data-fls-forgetfinal="" data-fls-popup="forget-final" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text popup-block">
+						<h2 class="modal__title modal__title-verification">Forgot Password</h2>
+						<p class="modal__subtitle">Enter a new password.</p>
+						<form data-forgetfinal-form="" novalidate class="password-items">
+							<div class="password-wrap">
+								<input type="hidden" name="username" autocomplete="username">
+								<label class="modal__label-password">Password</label>
+								<input id="password-3" name="new-password" type="password" placeholder="********" class="input" required minlength="8" autocomplete="new-password" aria-required="true" aria-label="New password">
+								<button data-fls-passwordeye="" type="button" class="password-eye --icon-eye" aria-label="Показати пароль"></button>
+							</div>
+							<div class="password-wrap">
+								<label class="modal__label-password">Confirm Password</label>
+								<input id="password-2" name="confirm-password" type="password" placeholder="********" class="input" required minlength="8" autocomplete="new-password" aria-required="true" aria-label="Confirm new password">
+								<button data-fls-passwordeye="" type="button" class="password-eye --icon-eye" aria-label="Показати пароль"></button>
+							</div>
+							<div class="form-actions">
+								<button data-forgetfinal-submit="" data-fls-popup-link="forget-success" class="button btn-modal btn-signup__modal button-forget" type="button" disabled>Restore Password</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- password change successfully -->
+		<div data-fls-popup="forget-success" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+					<div data-fls-popup-content="" class="popup__text">
+						<h2 class="modal__title">Password updated!</h2>
+						<p class="modal__subtitle">
+							Your password has been successfully reset. You can now log in to your
+          account.
+						</p>
+						<button class="button btn-modal btn-success-continue" data-fls-forget-success="">Continue work</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Log out -->
+		<div data-fls-logout="" data-fls-popup="logout" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<div data-fls-popup-content="" class="popup__content">
+						<h2 class="logout__title">Are you sure want to logout?</h2>
+						<button data-fls-popup-close="" type="button" class="popup__close --icon-close"></button>
+						<div class="buttons-wrapper">
+							<button class="button btn-modal button-cancel">Cancel</button>
+							<button class="button btn-modal button-logout">Yes, Logout</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Subscription Application -->
+		<div data-fls-subscriptions="" data-fls-popup="application" class="popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close" aria-label="Close window"></button>
+					<div data-fls-subscriptions="" class="popup__content">
+						<form data-subscription-form="" novalidate autocomplete="on">
+							<h2 class="popup__title">Subscription Application</h2>
+							<label class="popup__label" for="name-input">Enter your name</label>
+							<input id="name-input" name="full-name" type="text" placeholder="Anastasiia" class="input" required minlength="2" autocomplete="name" aria-required="true" aria-label="Full name">
+							<label class="popup__label" for="email-input">E-mail</label>
+							<input id="email-input" name="email" type="email" placeholder="Enter your e-mail" class="input" required autocomplete="email" aria-required="true" aria-label="Email address">
+							<label class="popup__label" for="phone-input">Phone</label>
+							<input id="phone-input" name="phone" type="tel" placeholder="Enter your phone" class="input" required inputmode="tel" autocomplete="tel" aria-required="true" aria-label="Phone number">
+							<button data-fls-popup-link="payment-select" class="button button-subscription" type="submit">Apply</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- payment-select -->
+		<div data-fls-popup="payment-select" data-fls-payment="" class="popup payment-popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close" aria-label="Close"></button>
+					<div class="payment popup__content">
+						<h2 class="popup__title">Purchase payment</h2>
+						<div class="payment__quick">
+							<button class="button payment-quick payment-apple --icon-applepay" data-action="applepay">Pay</button>
+							<button class="button payment-quick payment-gpay" data-action="googlepay">
+								<span>
+									<img class="social-btn__icon" src="./assets/img/icon-google.svg" alt="icon-google">
+								</span>
+								Pay
+							</button>
+						</div>
+						<div class="payment__card">
+							<label class="popup-label" for="pc-card-number">Card number</label>
+							<input id="pc-card-number" name="card-number" class="input" inputmode="numeric" autocomplete="cc-number" placeholder="1234 5678 1234 5678" maxlength="19" required aria-required="true" aria-label="Card number">
+							<div class="form-row">
+								<div class="form-group">
+									<label class="popup-label" for="pc-exp">Expiration (MM/YY)</label>
+									<input id="pc-exp" name="card-expiration" class="input" inputmode="numeric" placeholder="MM/YY" maxlength="5" autocomplete="cc-exp" required aria-required="true" aria-label="Card expiration date">
+								</div>
+								<div class="form-group">
+									<label class="popup-label" for="pc-cvc">CVC</label>
+									<input id="pc-cvc" name="card-cvc" class="input" inputmode="numeric" placeholder="CVC" maxlength="4" autocomplete="cc-csc" required aria-required="true" aria-label="Card security code">
+								</div>
+							</div>
+							<button id="pc-card-pay-btn" class="button payment-tab" data-open="card">Pay with card</button>
+							<!--
+<button id="pc-pay-btn" class="button payment-tab" data-open="card">
+Pay with card
+</button>
+-->
+							<p class="payment__info">We do not collect information on your cards, everything is safe</p>
+						</div>
+						<div class="payment--crypto">
+							<h2 class="payment__title">Payment by crypto wallet</h2>
+							<label class="popup-label">Select currency</label>
+							<select data-fls-select="" name="form[]" data-fls-select-modif="form" class="--icon-arrow-down-ak">
+								<option value="1" selected class="input input__crypto selected --icon-arrow-down-ak">Bitcoin</option>
+								<option value="2">Ethereum</option>
+								<option value="3">Litecoin</option>
+								<option value="4">Ripple (XRP)</option>
+							</select>
+							<button data-fls-popup-link="payment-crypto" class="button primary-btn">Pay</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Crypto payment modal -->
+		<div data-fls-paymentcrypto="" data-fls-popup="payment-crypto" class="popup payment-popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close" aria-label="Close"></button>
+					<div class="payment__crypto crypto-payment">
+						<h3 class="crypto-payment__title">Purchase payment</h3>
+						<h4 class="crypto-payment__subtitle">Payment by crypto wallet</h4>
+						<label class="popup-label">Choose the Blockhain Network</label>
+						<select data-fls-select="" name="form[]" data-fls-select-modif="form" class="--icon-arrow-down-ak">
+							<option value="bitcoin" selected>Bitcoin (BTC) Blockchain</option>
+							<option value="ethereum">Ethereum (ETH) Blockchain</option>
+							<option value="litecoin">Litecoin (LTC) Blockchain</option>
+							<option value="ripple">XRP Ledger</option>
+						</select>
+						<div class="payment__actions">
+							<button data-fls-popup-link="crypto-address" class="button primary-btn">Pay</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Crypto payment modal -->
+		<div data-fls-paymentcrypto="" data-fls-popup="crypto-address" class="popup payment-popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close" aria-label="Close"></button>
+					<div class="payment__crypto crypto-payment">
+						<h3 class="crypto-payment__title">Purchase payment</h3>
+						<h4 class="crypto-payment__subtitle">Payment by crypto wallet</h4>
+						<div class="crypto-payment__amount amount-block">
+							<div class="amount-block__text">The amount to be paid:</div>
+							<div class="amount-block__sum" id="crypto-amount">0.00158039 BTC</div>
+						</div>
+						<div class="crypto-payment__blockchain blockchain-block">
+							<div class="blockchain-block__text">Blockchain:</div>
+							<div class="blockchain-block__sum" id="crypto-blockchain">BTC network:</div>
+						</div>
+						<h5 class="crypto-payment__text">You can copy the address:</h5>
+						<div class="crypto-payment__adress --icon-discount" id="crypto-address">3PGgmpAxfzDSyPAGPqdL2oe5yS78UytENU</div>
+						<div class="payment__actions">
+							<button id="pc-payment-btn" class="button primary-btn">Pay</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Processing modal (for Apple/Google) -->
+		<div data-fls-popup="payment-processing" class="popup payment-popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<div class="payment payment--process">
+						<h2 class="payment__title">Processing payment…</h2>
+						<p class="payment__info">Completing secure transaction. Don’t close this window.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Success -->
+		<div data-fls-popup="payment-success" data-fls-paymentcrypto="" class="popup payment-popup">
+			<div class="modal__overlay"></div>
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-close" aria-label="Close"></button>
+					<img class="success__image" src="./assets/img/Illustrations-3.svg" width="145" hight="145" alt="Image Success">
+					<div class="payment payment--success">
+						<h3 class="payment__title--center">Subscription paid</h3>
+						<div class="payment__actions">
+							<button class="button primary-btn" id="pc-success-continue">Continue work</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Learn and Support modals (simple) -->
+		<!--
+<div data-fls-popup="payment-learn" class="popup">
+<div class="modal__overlay"></div>
+<div data-fls-popup-wrapper class="popup__wrapper">
+<div data-fls-popup-body class="popup__body">
+<button
+data-fls-popup-close
+type="button"
+class="popup__close --icon-close"
+></button>
+<h2>About payments</h2>
+<p>
+We support Apple Pay, Google Pay, card payments and crypto using secure
+tokenization.
+</p>
+</div>
+</div>
+</div>
+-->
+		<!--
+<div data-fls-popup="payment-support" class="popup">
+<div class="modal__overlay"></div>
+<div data-fls-popup-wrapper class="popup__wrapper">
+<div data-fls-popup-body class="popup__body">
+<button
+data-fls-popup-close
+type="button"
+class="popup__close --icon-close"
+></button>
+<h3 data-fls-title class="popup__title">Support</h3>
+<a class="contacts__link" href="mailto:support@yourdomain.com"
+>support@yourdomain.com</a
+>
+</div>
+</div>
+</div>
+-->
+	</body>
+</html>
